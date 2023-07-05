@@ -13,5 +13,6 @@ UCLASS()
 class ARENABATTLE_API AABPlayerController : public APlayerController
 {
 	GENERATED_BODY()
-	
+
+	void BeginPlay() override;
 };
